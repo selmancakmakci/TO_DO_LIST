@@ -13,11 +13,14 @@
     <title>To Do List</title>
 </head>
 <body>
+   
+   
     <h1 id="header">TO DO LIST</h1>
+        
     <div id="container">
         
     <div id="formToDo">
-        <textarea id="inputToDo" type="text" maxlength="100" placeholder="Please Enter Text Here!                                ( Maximum 100 characters)" ></textarea><br></br>
+        <textarea id="inputToDo" type="text" maxlength="100" placeholder="Please Enter Text Here!                                ( Maximum 100 characters )" ></textarea><br></br>
         <button class="buttonAll" id="button" type="button" onclick="addTask()"> ADD TASK </button>
     </div>
     <div id="addList">
@@ -28,9 +31,17 @@
 
      <button class="buttonAll" id="clearChecked" onclick="clearChecked()"> CLEAR CHECKED</button>
      <button class="buttonAll" id="clearAll" onclick="clearAll()" > CLEAR ALL</button>
+    
     </div>
+   <div id="explanation">
+    <h2 id="explanationHeader">What Can I Do With This?</h2>
+    <p>You can add tasks up to 10.</p>
+    <p>You can check finished tasks.</p>
+    <p>You can clear CHECKED tasks if you want.</p>
+    <p>You can clear all tasks at once.</p>
+</div>
 
-
+    
     <script src="./script.js"></script>
 </body>
 </html>

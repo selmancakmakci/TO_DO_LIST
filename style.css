@@ -6,17 +6,53 @@ body{
     background-position: center;
     background-position-y: 60px;
     margin-top: 200px;
-
-    
 }
+
+#explanation{
+    padding: 0.5em;
+    width: 21em;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(95, 158, 160, 0.512);;
+    
+    
+    
+    
+   
+    }
+
+    #explanation p{
+        font-size: 18px;
+        font-family: "Indie Flower";
+        text-decoration: underline;
+        font-weight: 1000;
+        color: rgb(37, 3, 141);
+    }
+    
+
+    #explanationHeader{
+        font-family: "Permanent Marker";
+        color: tomato;
+        font-size: 22px;
+        border: solid;
+        border-radius: 10px;
+        border-color: beige;
+        background-color: beige;
+        
+
+    }
+
+
+
 
 
 #inputToDo{
     width: 16em;
     height: 7em;
     resize: none ;
-    
-border-radius: 5px;
+    border-radius: 5px;
     margin-top: 2em;
     font-size: 20px;
     font-weight:1000;
@@ -61,7 +97,8 @@ border-radius: 5px;
     margin-top: -15px;
     text-align: center;
     border-radius: 15px;
-    background-color: rgba(95, 158, 160, 0.512);
+    background-color: rgba(95, 158, 160, 0.601);
+    
 }
 
 #clearAll{
