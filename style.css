@@ -12,11 +12,11 @@ body{
 
 
 #inputToDo{
-    width: 21em;
+    width: 16em;
     height: 7em;
     resize: none ;
     
-    border-radius: 5px;
+border-radius: 5px;
     margin-top: 2em;
     font-size: 20px;
     font-weight:1000;
