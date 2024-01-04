@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1 id="header">TO DO LIST</h1>
+    <div id="container">
+        
+    <div id="formToDo">
+        <textarea id="inputToDo" type="text" maxlength="90" placeholder="Enter Text Here Please!                               ( Maximun 90 charakter)" ></textarea><br></br>
+        <button class="buttonAll" id="button" type="button" onclick="addTask()"> ADD TASK </button>
+    </div>
+    <div id="addList">
+    <ul id="list">
+        
+    </ul>
+     </div>
+
+     <button class="buttonAll" id="clearChecked" onclick="clearChecked()"> CLEAR CHECKED</button>
+     <button class="buttonAll" id="clearAll" onclick="clearAll()" > CLEAR ALL</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

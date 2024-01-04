@@ -1,0 +1,147 @@
+body{
+    background-color: aquamarine;
+    background-image: url(./v602-nunoon-18-rippednotes.jpg);
+    background-size: 29em;
+    background-repeat:repeat-y;
+    background-position: center;
+    background-position-y: 60px;
+    margin-top: 200px;
+
+    
+}
+
+
+#inputToDo{
+    width: 21em;
+    height: 6em;
+    resize: none ;
+    overflow: auto;
+    border-radius: 5px;
+    margin-top: 2em;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Indie Flower';
+    padding-top: 20px;
+
+    
+   
+}
+
+
+/*#addList{
+    margin-top: 5em;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 19em;
+    height: 30em;
+    margin: auto;
+    margin-bottom: 1em;
+    text-align: left;
+    
+    
+
+
+}
+
+*/
+#header{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -5em;
+    font-family: "Permanent Marker";
+    color: tomato;
+
+}
+
+#container{
+    
+    width: 22em;
+    margin: auto;
+    margin-top: -15px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(95, 158, 160, 0.512);
+}
+
+#clearAll{
+    margin-bottom: 1em;
+    margin-left: 3em;
+    width: 10em;
+    height: 2em;
+    font-weight: bolder;
+    background-color: beige;
+    border: none;
+    border-radius: 10px;
+    font-family: "Permanent Marker";
+    color: tomato;
+   
+}
+
+#clearChecked{
+    margin-bottom: 1em;
+    
+    
+    height: 2em;
+    font-weight: bolder;
+    background-color: beige;
+    border: none;
+    border-radius: 10px;
+    font-family: "Permanent Marker";
+    color: tomato;
+    
+}
+
+#button{
+    height: 2em;
+    font-weight: bolder;
+    background-color: beige;
+    border: none;
+    border-radius: 10px;
+    width: 10em;
+    font-family: "Permanent Marker";
+    color: tomato;
+}
+
+.buttonAll:hover{
+       transform: scale(1.1);
+}
+#list{
+    display: flex;
+    flex-direction: column;
+}
+#list li {
+    display: flex;
+    align-items: center;
+    overflow-wrap: break-word;
+    list-style-type:none;
+    font-weight: bolder;
+    font-size: 15px;
+    word-break: break-all;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-right: 25px;
+    margin-left: -15px;
+    border-radius: 10px;
+    background-color: rgba(230, 10, 28, 0.418);
+    padding: 10px;
+    font-family: 'Indie Flower';
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+}
+.completed {
+    text-decoration: line-through;
+    background-color: rgba(18, 202, 18, 0.409) !important; 
+   }
+
+label{
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+
